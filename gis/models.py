@@ -12,6 +12,4 @@ class Articles(models.Model):
     user = models.ForeignKey(User)
 
     def __str__(self):
-        pass
-
-
+        return self.title
